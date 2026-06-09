@@ -6,7 +6,7 @@ app_email = "shariq@frappe.io"
 app_license = "AGPLv3"
 app_icon_url = "/assets/crm/images/logo.svg"
 app_icon_title = "CRM"
-app_icon_route = "/crm"
+app_icon_route = "/desk/frappe-crm"
 
 # Apps
 # ------------------
@@ -17,7 +17,7 @@ add_to_apps_screen = [
 		"name": "crm",
 		"logo": "/assets/crm/images/logo.svg",
 		"title": "CRM",
-		"route": "/crm",
+		"route": "/desk/frappe-crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
 ]
